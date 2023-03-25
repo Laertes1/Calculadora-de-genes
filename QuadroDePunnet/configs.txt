@@ -1,0 +1,19 @@
+
+    //Cor do fundo{
+        background-color: rgb(20,20,20);
+    }
+    //Font{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        
+        //Titulo{
+            font-size: 60px;
+        }
+    }
+    //Transição {
+        transition: ease-in-out, 2s;
+    }
+
+    //Cor da borda{
+        rgb(214, 37, 37)
+    }

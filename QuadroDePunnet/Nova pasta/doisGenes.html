@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dois Genes</title>
+    <link rel="stylesheet" href="styleDoisGenes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="genesSection">
+        <div class="genesSection-div1">
+            <h1 class="titulo">Digite os Genes</h1>
+        </div>
+
+        <div class="genesSection-pai">   
+            <div class="pai-div">
+                <h2 class="h2-pai">Gene Pai</h2>  
+            </div>       
+            <input type="text" placeholder="Gene 1" id="genePai1" maxlength="1">
+            <input type="text" placeholder="Gene 2" id="genePai2" maxlength="1"> 
+            <input type="text" placeholder="Gene 1" id="genePai3" maxlength="1">
+            <input type="text" placeholder="Gene 2" id="genePai4" maxlength="1"> 
+        </div>
+        
+        <div class="genesSection-mae">  
+            <div class="pai-div">
+                <h2 class="h2-pai">Gene Mãe</h2>  
+            </div>            
+            <input type="text" placeholder="Gene 1" id="geneMae1" maxlength="1">
+            <input type="text" placeholder="Gene 2" id="geneMae2" maxlength="1"> 
+            <input type="text" placeholder="Gene 1" id="geneMae3" maxlength="1">
+            <input type="text" placeholder="Gene 2" id="geneMae4" maxlength="1"> 
+        </div>
+        
+        <div class="genesSection-div3">
+            <button onclick="escolha()">Pronto</button>
+        </div>
+    </section>
+
+    <p id="opaioa" style="color: aqua; margin-left:20px;"></p>
+   <div class="genesSection-divTabela">
+        <table id="table">
+             
+        </table>
+    </div>
+
+    
+    
+<script src="scriptDoisGenes.js"></script>
+</body>
+</html>
