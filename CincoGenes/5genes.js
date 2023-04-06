@@ -52,14 +52,18 @@
               const formacaoGene5 = paiGene5[n] + maeGene5[n];
                 
 
-              linha1.push(formacaoGene1+formacaoGene2+formacaoGene3+formacaoGene4+formacaoGene5);
+              linha1.push(formacaoGene1);
+              linha2.push(formacaoGene2);
+              linha3.push(formacaoGene3);
+              linha4.push(formacaoGene4);
+              linha5.push(formacaoGene5);
               
             }
           }
         }
       }
     }
-    table.push(linha1);
+    table.push(linha1+linha2+linha3+linha4+linha5);
   }
 
   console.table(table);
