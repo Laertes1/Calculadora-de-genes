@@ -67,22 +67,17 @@ const linha5 =[]
 const linha6 =[]
 const linha7 =[]
 const linha8 =[]
-const opa = document.querySelector('tr');
+
 const test1 =[]
 for( let b=0;b<colunaGene.length;b++){
   for(let t=0; t<linhaGene1.length;t++){
     const te1 = linhaGene1[t].substring(0,1) + colunaGene[b].substring(0,1)
     const te2 = linhaGene1[t].substring(1,2) + colunaGene[b].substring(1,2)
     const te3 = linhaGene1[t].substring(2,3) + colunaGene[b].substring(2,3)
-    
-    
-   
-    const te4 = te1+te2+te3
-    
+      
+    const te4 = te1+te2+te3  
     test1.push(te4)
     
-    
-
   }
 }
 
@@ -99,7 +94,6 @@ linha6.push(colunaGene6,ar41,ar42,ar43,ar44,ar45,ar46,ar47,ar48,)
 linha7.push(colunaGene7,ar49,ar50,ar51,ar52,ar53,ar54,ar55,ar56,)
 linha8.push(colunaGene8,ar57,ar58,ar59,ar60,ar61,ar62,ar63,ar64,)
 
-console.log(ar1)
 tabela.push(linhaGene2 ,linha1,linha2,linha3,linha4,linha5,linha6,linha7,linha8)
 
 for (let m = 0; m < tabela.length; m++) {
@@ -109,7 +103,5 @@ for (let m = 0; m < tabela.length; m++) {
     celula.textContent = tabela[m][z];
   }
 }
-
-
 
 }
