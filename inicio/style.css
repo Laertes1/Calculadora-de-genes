@@ -79,11 +79,11 @@ a{
     border-radius:10px ;
     color: white;
     font-family: 'Roboto', sans-serif;
-    border:2px solid rgb(214, 37, 37);
+    border:2px solid #3382D8  ;
     transition: ease-in-out, 1.5s;
     margin-top: 20px;
 }
 
 .escolhaDosGenes-div2.btt:hover{
-    background-color:rgb(206, 41, 41) ;
-}
+    background-color:#3382D8;
+}   

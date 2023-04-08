@@ -1,7 +1,14 @@
- function enviar(){
+
+function enviar(){
+  const idPai = document.querySelector('.idPai').value;
+  const idMae = document.querySelector('.idMae').value;
+  
+if(idPai.length == 6 && idMae.length == 6){
+
 const input = document.getElementById('table');
-const idPai = document.querySelector('.idPai').value;
-const idMae = document.querySelector('.idMae').value;
+
+document.querySelector('.sec1').style.opacity="0"
+document.querySelector('.btt').style.opacity="0"
 
 const genePai1 = [idPai.substring(0,1), idPai.substring(1,2)]
 const genePai2 = [idPai.substring(2,3), idPai.substring(3,4)]
@@ -104,4 +111,9 @@ for (let m = 0; m < tabela.length; m++) {
   }
 }
 
+}
+
+else{ 
+  alert("Escreva os tres genes do pai e da mãe")
+}
 }
