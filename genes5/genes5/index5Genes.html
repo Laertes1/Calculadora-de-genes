@@ -8,19 +8,33 @@
     <link rel="stylesheet" href="5Genes.css">
 </head>
 <body>
-    <section class="sec1">
-        <input type="text" class="idPai" placeholder="Digite os genes do pai" maxlength="10">
-        <input type="text" class="idMae" placeholder="Digite os genes da mãe" maxlength="10"> 
-
-        <button class="btt" onclick="enviar()">Fazer Mistura</button>
+    <nav class="navBar">
+        <div class="navBar-div1">
+            <img src="/logoEstado.png" alt="" class="govImg">
+        </div>
+        <div class="navBar-div2">
+           <a href="#"> <p class="equipe">Equipe</p> </a>
+        </div>
+    </nav>
+    <section class="secPrinc">
+        <div class="titulo">
+            <h1>Quadro de punnett com cinco genes</h1>
+        </div>
+        <section class="sec1">
+            <input type="text" class="idPai" placeholder="Digite os genes do pai" maxlength="10" onclick="paiFunc()">
+            <input type="text" class="idMae" placeholder="Digite os genes da mãe" maxlength="10" onclick="maeFunc()">
+        </section>
+        <section class="sec2">
+            <button class="btt" onclick="enviar()">Fazer Mistura</button>
+        </section>
+        <section class="secTable">
+            <table id="table">
+    
+            </table>
+        </section>
     </section>
-
-    <section class="secTable">
-        <table id="table">
-
-        </table>
-    </section>
-
+        
+    
     <script src="script5Genes.js"></script>
 
 
