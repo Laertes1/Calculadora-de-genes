@@ -5,10 +5,6 @@ function enviar(){
 if(idPai.length == 10 && idMae.length ==10){
 
   const input = document.getElementById('table');
-  
-  document.querySelector(".sec1").style.opacity = "0";
-  document.querySelector(".btt").style.opacity = "0";
-  document.querySelector("h1").style.opacity = "0";
 
   const genePai1 = [idPai.substring(0,1), idPai.substring(1,2)]
   const genePai2 = [idPai.substring(2,3), idPai.substring(3,4)]
