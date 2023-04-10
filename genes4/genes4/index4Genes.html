@@ -1,42 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quatro genes</title>
     <link rel="stylesheet" href="4Genes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navBar">
-        <div class="navBar-div1">
-            <img src="/logoEstado.png" alt="" class="govImg">
+    <nav>
+        <div class="logo"> <img src="ads.png" alt="" class="ads"> 
+                           <img src="Novo Projeto.png" alt="" class="ceara">
         </div>
-        <div class="navBar-div2">
-           <a href="#"> <p class="equipe">Equipe</p> </a>
-        </div>
+
+        <ul>
+            <li> <a href="#" class="active"> Home </a> </li>
+            <li> <a href="#"> Calcular</a> </li>
+            
+            <li> <a href="#"> Porque?</a> </li>
+            <li> <a href="#"> Sobre nós</a> </li>
+            <li> <a href="#"> Equipe</a> 
+              <ul class="sublinks">
+                <li><a href="">Natan</a></li>
+                <li><a href="">Laertes</a></li>
+                <li><a href="">Saullo</a></li>
+                <li><a href="">Lucas</a></li>
+              </ul>
+            </li>
+        </ul>
     </nav>
     <section class="secPrinc">
-        <div class="titulo">
-            <h1>Quadro de punnett com quatro genes</h1>
-        </div>
-        <section class="sec1">
-            <input type="text" class="idPai" placeholder="Digite os genes do pai" maxlength="8" >
-            <input type="text" class="idMae" placeholder="Digite os genes da mãe" maxlength="8" >
-        </section>
-        <section class="sec2">
-            <button class="btt" onclick="enviar()">Fazer Mistura</button>
-        </section>
-        <section class="secTable">
-            <table id="table">
-    
-            </table>
-        </section>
+        <section class="paiMae">
+    <section class="sec1">
+        <input type="text" class="idPai" required="required" maxlength="8">
+        <span>Genes do Pai</span>
     </section>
-        
-    
-    <script src="script4Genes.js"></script>
 
+    <section class="sec1">
+        <input type="text" class="idMae" required="required" maxlength="8"> 
+        <span>Genes da Mãe</span>
+    </section>
+        </section>
+      <button class="btt" onclick="enviar()">Fazer mistura</button>
+    </section>
+    <section class="Table">
+        <table id="table">
 
+        </table>
+    </section>
+
+    <script src="script3Genes.js"></script>
 </body>
-</html>
+</html>  
