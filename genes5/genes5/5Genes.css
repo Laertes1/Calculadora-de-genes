@@ -86,9 +86,10 @@ h1{
 }
 
 table {
-    width: 900px;
+    width: 4000px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: large;
+    margin-left: 3000px;
 }
 
 
@@ -101,6 +102,7 @@ td {
     color: white;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    margin-left: 90px;
 }
 .sec1,.Table{
     align-items: center;

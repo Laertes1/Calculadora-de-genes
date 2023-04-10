@@ -253,7 +253,6 @@ const [ar1,ar2,ar3,ar4,ar5,ar6,ar7,ar8,ar9,ar10,ar11,ar12,ar13,ar14,ar15,ar16,ar
 
 
   
-  console.log(ar1)
   tabela.push(linhaGene2 ,linha1,linha2,linha3,linha4,linha5,linha6,linha7,linha8,linha9,linha10,linha11,linha12,linha13,linha14,linha15,linha16,linha17,linha18,linha19,linha20,linha21,linha22,linha23,linha24,linha25,linha26,linha27,linha28,linha29,linha30,linha31,linha32,)
   
   for (let m = 0; m < tabela.length; m++) {
@@ -264,7 +263,7 @@ const [ar1,ar2,ar3,ar4,ar5,ar6,ar7,ar8,ar9,ar10,ar11,ar12,ar13,ar14,ar15,ar16,ar
     }
   }
   
-  
+  console.log(tabela.length)
 
   } 
   else{
