@@ -19,7 +19,7 @@ function enviar(){
     const tabela=[]
     
     
-    
+    /*-----Primeira Linha-----*/
     const linhaGene1 = [
      
       genePai1[0] + genePai2[0],
@@ -28,6 +28,8 @@ function enviar(){
       genePai1[1] + genePai2[1],
      
     ];
+ 
+    /*------Linha Que serve somente para o visual------*/
     const linhaGene2 = [
       "⠀⠀",
       genePai1[0] + genePai2[0],
@@ -35,7 +37,7 @@ function enviar(){
       genePai1[1] + genePai2[0],
       genePai1[1] + genePai2[1],
     ];
-    
+    /*-----Coluna------*/
     const colunaGene = [
       geneMae1[0] + geneMae2[0],
       geneMae1[0] + geneMae2[1],
@@ -59,10 +61,9 @@ function enviar(){
       for(let t=0; t<linhaGene1.length;t++){
         const te1 = linhaGene1[t].substring(0,1) + colunaGene[b].substring(0,1)
         const te2 = linhaGene1[t].substring(1,2) + colunaGene[b].substring(1,2)
-        
+      
         const te4 = te1+te2
-        test1.push(te4)
-    
+          test1.push(te4)    
       }
     }
     
