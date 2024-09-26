@@ -1,6 +1,6 @@
-<h1 align="center"> :dna:Calculadora de Genes :dna:</h1>
+<h1 align="center"> :dna:Quadro de Punnett :dna:</h1>
 
-<h2 align="center">Essa é uma calculadora que faz a mistura dos genes adicionados. </h2>
+<h2 align="center">Esse é o quadro de punnett que tem como função realizar a mistura dos genes. </h2>
 
 Logo abaixo uma Captura do Projeto
 ![Calculadora](Assets/Captura2Genes.png)
